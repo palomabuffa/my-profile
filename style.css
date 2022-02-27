@@ -1,0 +1,112 @@
+body {
+	background-color: rgb(300, 300, 300);
+	color: rgb(66, 66, 66);
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+
+h1 {
+	color: rgb(71, 13, 33);
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 600;
+	letter-spacing: 4px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: rgb(156, 15, 72);
+	font-family: 'Archivo', sans-serif;
+	font-weight: 220;
+	letter-spacing: 1px;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(214, 125, 62) ;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: black;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+.container {
+	width: 400px;
+	}
+}
+
+
+@media (max-width: 760px) {
+.container {
+	width: 600px;
+	}
+}
+
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px ;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+	border: 2px black;
+	margin: 10px;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+background-color: rgb(214, 125, 62);
+color : white;
+padding: 10px 15px;
+border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: rgb(71, 13, 33);
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding:  10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+.list-inline i:hover {
+	color: rgb(156, 15, 72);
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
